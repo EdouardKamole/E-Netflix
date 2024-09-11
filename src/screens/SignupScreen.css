@@ -1,0 +1,79 @@
+.signupScreen {
+  max-width: 400px; /* Container width */
+  padding: 80px; /* Padding around the form */
+  margin: 0 auto; /* Center the container */
+  background: rgba(0, 0, 0, 0.85); /* Background color */
+  border-radius: 10px; /* Rounded corners */
+  color: #fff; /* Text color */
+  text-align: center; /* Center-align text */
+}
+
+.signupScreen > form {
+  display: flex; /* Flexbox for layout */
+  flex-direction: column; /* Column layout */
+  gap: 25px; /* Space between form elements */
+  align-items: center; /* Center align items */
+  width: 100%; /* Full width for form */
+}
+
+/* Style for input fields and button */
+.signupScreen_input input,
+.signupScreen_password input,
+.signupScreen > form button {
+  padding: 15px 20px; /* Padding for larger clickable area */
+  outline: none; /* Remove outline */
+  height: 50px; /* Uniform height */
+  width: 100%; /* Full width */
+  max-width: 350px; /* Max width */
+  border: none; /* No border */
+  font-size: 1.1rem; /* Font size */
+  border-radius: 5px; /* Rounded edges */
+  margin-top: 10px; /* Spacing above */
+}
+
+/* Specific style for input fields */
+.signupScreen_input input,
+.signupScreen_password input {
+  background-color: #333; /* Dark background for input */
+  color: #fff; /* White text for input */
+}
+
+/* Button styling */
+.signupScreen > form button {
+  background-color: #e50914; /* Netflix-style button color */
+  color: #fff; /* Button text color */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Hover effect for button */
+.signupScreen > form button:hover {
+  background-color: #f40612; /* Lighter color on hover */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Style for headings */
+.signupScreen h1 {
+  font-size: 2rem; /* Larger font size */
+  margin-bottom: 20px; /* Spacing below the heading */
+}
+
+.signupScreen h2 {
+  font-size: 1.5rem; /* Font size for subheading */
+  margin-bottom: 15px; /* Spacing */
+}
+
+.signupScreen h3 {
+  font-size: 1.2rem; /* Font size for smaller text */
+  margin-bottom: 20px; /* Spacing */
+  font-weight: normal; /* Normal font weight */
+}
+.signupScreen > form > h4 {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.signupScreen h1,
+.signupScreen h2,
+.signupScreen h3 {
+  color: #fff; /* Consistent text color */
+}
