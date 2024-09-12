@@ -1,0 +1,62 @@
+.profileScreen {
+  height: 100vh;
+  color: white;
+}
+
+.profileScreen_body {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 4%; /* Reduced padding */
+  max-width: 400px; /* Further reduced max width */
+}
+
+.profileScreen_info {
+  display: flex;
+  align-items: center; /* Centers the content vertically */
+}
+
+.profileScreen_details {
+  color: white;
+  margin-left: 15px; /* Reduced margin */
+  flex: 1;
+}
+
+.profileScreen_body > h1 {
+  font-size: 30px; /* Further reduced font size */
+  font-weight: 400;
+  border-bottom: 1px solid #282c2d;
+  margin-bottom: 15px; /* Reduced margin */
+}
+
+.profileScreen_info > img {
+  height: 60px; /* Further reduced image height */
+}
+
+.profileScreen_details > h2 {
+  background-color: gray;
+  padding: 8px; /* Reduced padding */
+  font-size: 12px; /* Further reduced font size */
+  padding-left: 12px; /* Reduced padding-left */
+}
+
+.profileScreen_signOut {
+  padding: 8px 16px; /* Kept smaller padding */
+  font-size: 0.8rem; /* Further reduced font size */
+  margin-top: 3%; /* Further reduced margin-top */
+  width: 100%;
+  color: #fff;
+  background-color: #e50914;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+.profileScreen_plans {
+  margin-top: 20px;
+}
+
+.profileScreen_plans > h3 {
+  border-bottom: 1px solid #282c2d;
+  padding-bottom: 10px;
+}

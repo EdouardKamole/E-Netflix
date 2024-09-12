@@ -1,79 +1,83 @@
 .signupScreen {
-  max-width: 400px; /* Container width */
-  padding: 80px; /* Padding around the form */
-  margin: 0 auto; /* Center the container */
-  background: rgba(0, 0, 0, 0.85); /* Background color */
-  border-radius: 10px; /* Rounded corners */
-  color: #fff; /* Text color */
-  text-align: center; /* Center-align text */
+  max-width: 350px; /* Reduced max-width to keep everything within the box */
+  padding: 60px; /* Reduced padding to make more space */
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.85);
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
 }
 
 .signupScreen > form {
-  display: flex; /* Flexbox for layout */
-  flex-direction: column; /* Column layout */
-  gap: 25px; /* Space between form elements */
-  align-items: center; /* Center align items */
-  width: 100%; /* Full width for form */
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Reduced gap between elements */
+  align-items: center;
+  width: 100%;
 }
 
-/* Style for input fields and button */
 .signupScreen_input input,
 .signupScreen_password input,
 .signupScreen > form button {
-  padding: 15px 20px; /* Padding for larger clickable area */
-  outline: none; /* Remove outline */
-  height: 50px; /* Uniform height */
-  width: 100%; /* Full width */
-  max-width: 350px; /* Max width */
-  border: none; /* No border */
-  font-size: 1.1rem; /* Font size */
-  border-radius: 5px; /* Rounded edges */
-  margin-top: 10px; /* Spacing above */
+  padding: 8px 12px; /* Further reduced padding */
+  outline: none;
+  height: 40px; /* Further reduced height */
+  width: 85%; /* Further reduced width */
+  max-width: 250px; /* Further reduced max width */
+  border: none;
+  font-size: 0.9rem; /* Further reduced font size */
+  border-radius: 5px;
+  margin-top: 8px; /* Reduced margin-top */
 }
 
-/* Specific style for input fields */
 .signupScreen_input input,
 .signupScreen_password input {
-  background-color: #333; /* Dark background for input */
-  color: #fff; /* White text for input */
+  background-color: #333;
+  color: #fff;
 }
 
-/* Button styling */
 .signupScreen > form button {
-  background-color: #e50914; /* Netflix-style button color */
-  color: #fff; /* Button text color */
-  cursor: pointer; /* Pointer cursor on hover */
+  background-color: #e50914;
+  color: #fff;
+  cursor: pointer;
+  width: 80%; /* Further reduced width */
+  max-width: 200px; /* Further reduced max width */
+  padding: 6px 12px; /* Reduced padding further */
+  font-size: 0.85rem; /* Reduced font size */
+  margin-top: 15px; /* Reduced margin */
 }
 
-/* Hover effect for button */
 .signupScreen > form button:hover {
-  background-color: #f40612; /* Lighter color on hover */
-  transition: background-color 0.3s; /* Smooth transition */
+  background-color: #f40612;
+  transition: background-color 0.3s;
 }
 
-/* Style for headings */
 .signupScreen h1 {
-  font-size: 2rem; /* Larger font size */
-  margin-bottom: 20px; /* Spacing below the heading */
+  font-size: 1.8rem; /* Reduced font size */
+  margin-bottom: 15px; /* Reduced margin */
 }
 
-.signupScreen h2 {
-  font-size: 1.5rem; /* Font size for subheading */
-  margin-bottom: 15px; /* Spacing */
+.signupScreen h4 {
+  font-size: 1.1rem; /* Reduced font size */
+  margin-bottom: 15px; /* Reduced margin */
+  font-weight: normal;
 }
 
-.signupScreen h3 {
-  font-size: 1.2rem; /* Font size for smaller text */
-  margin-bottom: 20px; /* Spacing */
-  font-weight: normal; /* Normal font weight */
-}
 .signupScreen > form > h4 {
   text-align: left;
-  margin-top: 30px;
+  margin-top: 20px; /* Reduced margin-top */
 }
 
 .signupScreen h1,
-.signupScreen h2,
-.signupScreen h3 {
-  color: #fff; /* Consistent text color */
+.signupScreen h4 {
+  color: #fff;
+}
+
+.signupScreen_gray {
+  color: gray;
+}
+
+.signupScreen_link:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
